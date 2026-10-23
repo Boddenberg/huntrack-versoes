@@ -14,7 +14,7 @@ Como usar:
 - **Checar tipos:** não se aplica
 - **Deploy:** publicar uma Release `vX.Y.Z` com `Huntrack-instalador-X.Y.Z.exe` + `.blockmap` (+ `latest.yml`); o app atualiza sozinho.
 - **Pastas principais:** nenhuma; só README e configs do Claude.
-- **Cuidados:** correções no app precisam do repositório do código-fonte do Huntrack, que não é este. O jogo aberto nas contas é o huntera.com.br.
+- **Cuidados:** o código do Huntrack é o repo `Boddenberg/grade-idle` (edição de venda da Grade; lançar com `npm run lancar` no Windows). O jogo aberto nas contas é o huntera.com.br.
 
 ---
 
