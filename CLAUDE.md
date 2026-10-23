@@ -8,13 +8,13 @@ Como usar:
 -->
 
 ## Projeto
-- **O que é:** <uma frase>
-- **Stack:** <ex.: Expo + TypeScript; servidor Node no Railway; Supabase>
-- **Rodar testes:** `<comando>`
-- **Checar tipos:** `<comando>`
-- **Deploy:** <ex.: push na `beta` → ambiente beta; `producao` → produção>
-- **Pastas principais:** <ex.: src/combate, src/mundo, src/ui>
-- **Cuidados:** <ex.: nunca mexer em X sem pedir>
+- **O que é:** Repositório público só com os instaladores do Huntrack para Windows (as Releases do GitHub). O código do app não fica aqui.
+- **Stack:** Electron (código compilado com bytenode + ofuscado), instalador NSIS, atualização via electron-updater lendo as Releases deste repo.
+- **Rodar testes:** não se aplica (não há código aqui)
+- **Checar tipos:** não se aplica
+- **Deploy:** publicar uma Release `vX.Y.Z` com `Huntrack-instalador-X.Y.Z.exe` + `.blockmap` (+ `latest.yml`); o app atualiza sozinho.
+- **Pastas principais:** nenhuma; só README e configs do Claude.
+- **Cuidados:** correções no app precisam do repositório do código-fonte do Huntrack, que não é este. O jogo aberto nas contas é o huntera.com.br.
 
 ---
 
